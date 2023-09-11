@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9074251445060706314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7027307756980532333}
+  - component: {fileID: 1917450160658805023}
+  - component: {fileID: 3930925040624544450}
+  m_Layer: 0
+  m_Name: PropertyControll
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7027307756980532333
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9074251445060706314}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 943.4521, y: 134.61784, z: 7.76311}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1917450160658805023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9074251445060706314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb5e6d4b4b15f8b46bb517e0e1dcf6dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _propertySO: {fileID: 11400000, guid: 4e3dca2e22b5dc3468ffe9840b115add, type: 2}
+  _goldText:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _diamondText:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &3930925040624544450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9074251445060706314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3ece10643a495468cc19ab7269c8f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _PlayerDataSO: {fileID: 11400000, guid: bb9d172b43810864288d3944562c78c2, type: 2}
+  PlayerName: {fileID: 0}
+  ExpSlider: {fileID: 0}
+  LevelTxt: {fileID: 0}
+  ExpState: {fileID: 0}
